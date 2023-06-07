@@ -18,7 +18,7 @@ const Home = () => {
                     </div>
                 </div>
             </header>
-            <main className='px-4 py-12 md:p-28'>
+            <main className='px-4 py-12 md:p-10 lg:p-28'>
                 <section className='grid md:grid-cols-3 gap-10'>
                     {
                         allMovies?.map(movie => <div key={movie?.show?.id} className="card bg-base-100 shadow-xl image-full h-80">
